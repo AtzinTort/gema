@@ -1,0 +1,319 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+    
+    background-image: url(img/pattern.png);
+    
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h5{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------navbar-----------------------------------------------------------------*/
+
+#navbarritas{
+    box-shadow: 0px 0px 15px black;
+    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color:#ffffff75;
+   backdrop-filter: blur(15px);
+   color: white;
+   z-index: 10;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 600;   
+    
+}
+.nav-item{
+    margin-right: 50px;
+    font-weight: bold;
+}
+#bbb,#sss{
+   
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(37, 37, 37);
+    transition: all 0.3s;
+}
+
+/*----------ANIMACIONES------------*/
+#bbb:hover{
+    color:#00bf05;
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.2);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#sss:hover{
+    color:#00bf05;
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#home_logo_a{
+    width: 100px;
+    height: 60px;
+}
+
+
+#logogem{
+    transition: all 0.5s;
+    position: absolute;
+    margin-top: 0px;
+    
+   
+}
+
+#logogem:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+
+}
+
+
+
+/*---------------------------------------------INICIO----------------------------------------------------------*/
+#inicio{
+    width: 100%;
+    margin-top: -115px;
+    margin-bottom: 25px;
+    z-index: 5;
+    
+}
+#primera>div>h3,p{
+    color: black;
+    font-weight: 600;
+
+}
+#item {
+    color: white;
+}
+d-block.w-100{
+
+}
+
+/*-----------------------------------------------ABOUT US--------------------------------------------------------*/
+
+#about {
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    
+}
+
+.jumbotron{
+    text-align: center;
+    height: 700px;
+    padding-top: 30vh;
+}
+
+
+
+#logo{
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+
+/*------------------------------------------------------SERVICIOS---------------------------------------------------*/
+#servicios{
+    background-image: url(img/backgroundGreen.jpg);
+    background-size:cover;
+    
+    
+}
+#contenidoServicios{
+    backdrop-filter: blur(5px);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#contenidoServicios> div> div> h1:first-child{
+    font-family: 'Quicksand', sans-serif;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.card{
+    box-shadow: 0px 0px 15px black;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: all 0.3s;
+
+}
+.card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+}
+.card:first-child{
+    margin-left: 10px;
+}
+.card:last-child{
+    margin-right: 10px;
+}
+.card-img-top{
+    border-radius: 15px;
+    padding: 3px;
+}
+.col-lg-3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.col-md-12{
+    margin: auto;
+}
+
+.exampleModalLabel{
+    font-weight: 12px;
+}
+
+/*-------------------------------------ANIMACIONES DE TARJETAS------------------------------*/
+.card:hover{
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.09);
+
+}
+
+
+/*------------------------------------------------------FINAL---------------------------------------------------*/
+
+.container-fluid1{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 200, 200);
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    backdrop-filter: blur(15px);
+}
+
+#contactos>h3{
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+#contactos>p{
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+#contenido{
+    text-align: center;
+    padding: 0px;
+    margin: 15px auto;
+    
+}
+
+.table>tbody>tr>th{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.table>tbody>tr>td{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+/*-------------------------------------linea de hasta abajo que dice contacto-----------------------*/
+#contacto{ 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    z-index: 100;
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    background-color: rgba(0, 0, 0, 0.87);
+    backdrop-filter: blur(15px);
+    /*----ANIMACIONES-----------*/
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    
+
+}
+
+
+#contacto:hover{
+    height: 90px;
+    /*----ANIMACIONES-----------*/
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    padding-top: 30px;
+}
+
+#contacto> div >a> h4{
+    padding-top: 10px; ;
+    width: 100%;
+    height: 100%;
+}
+
+#contacto > div > a{
+    
+    
+    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 90vw;
+    padding-top: 15px;
+}
+
+
+
+/*--------------------------------RESPONSIVE--------------------------------------------------------------*/
+@media only screen  and (min-width:360px) and (max-width:750px){
+
+    .container-fluid1{
+        background-color: rgb(23, 124, 40);
+        padding: 50px;
+    }
+
+}
+
+
